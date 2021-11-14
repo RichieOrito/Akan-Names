@@ -7,3 +7,10 @@
   --color-wave:#66A5AD;
   --color-seafoam:#C4DFE6;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
