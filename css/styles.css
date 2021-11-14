@@ -1,2 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+
+:root{
+  --color-deepaqua:#003B46;
+  --color-ocean:#07575B;
+  --color-wave:#66A5AD;
+  --color-seafoam:#C4DFE6;
+}
