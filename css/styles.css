@@ -91,3 +91,8 @@ button{
     max-width: 720px;
   }
 }
+
+.header{
+  padding: 0 0.625rem;
+  margin-bottom: 1.875rem;
+}
