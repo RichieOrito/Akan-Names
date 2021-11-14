@@ -114,3 +114,9 @@ form{
   padding:2.5rem 0.625rem;
   border-radius: 0.5rem;
 }
+
+@media (min-width: 480px){
+  form{
+    padding: 2.25rem;
+  }
+}
