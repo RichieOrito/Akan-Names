@@ -27,17 +27,15 @@ it on your own repository.
 
 * An access to the Internet
 
-### Installation Process
-
 [Go Back to the top](#akan-name)
 ## Technology Used
 * HTML - which was used to build the structure of the pages.
 
-* CSS - which was used to style the pages incuding the left aside navigation bar
+* CSS - which was used to style the pages incuding the left aside navigation bar.
 
-* Figma-which was used to design the prototype of the UI
+* Figma-which was used to design the prototype of the UI.
 
-* JavaScript
+* JavaScript -To calculate the birthdays and Alert the user their Akan Name.
 
 ## Reference
 * LMS
