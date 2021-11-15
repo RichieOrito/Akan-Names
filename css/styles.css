@@ -36,7 +36,7 @@ body::before {
   height: 100%;
   width: 100%;
   z-index: -1;
-  background-color:var(--color-huntergreen) ;
+  /* background-color:var(--color-huntergreen); */
   background-image:url(../images/image1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
