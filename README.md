@@ -29,7 +29,7 @@ it on your own repository.
 
 ### Installation Process
 
-[Go Back to the top](#akanname)
+[Go Back to the top](#AkanName)
 ## Technology Used
 * HTML - which was used to build the structure of the pages.
 
@@ -44,7 +44,7 @@ it on your own repository.
 * Youtube
 * W3schools
 
-[Go Back to the top](#akanname)
+[Go Back to the top](#AkanName)
 
 ## Licence
 
@@ -70,7 +70,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Go Back to the top](#akanname)
+[Go Back to the top](#AkanName)
 
 ## Authors Info
 
@@ -86,4 +86,4 @@ Github - [RICHIE ORITO](https://github.com/RichieOrito)
 
 LiveLink- [Gh-pages](https://richieorito.github.io/Akan-Names/)
 
-[Go Back to the top](#akanname)
+[Go Back to the top](#AkanName)
