@@ -85,7 +85,7 @@ function getName() {
 
         if (selectedGender === 0) {
 
-            let result ="Hey" + ' ' + "Your were born on a " + daysOfTheWeek[dayOfWeek] + ' ' +"Your Akan name is " + maleNames[dayOfWeek] + ".";
+            let result ="Hey" + ' ' + "You were born on a " + daysOfTheWeek[dayOfWeek] + ' ' + "and" + ' ' +"Your Akan name is " + maleNames[dayOfWeek] + ".";
 
             document.getElementById("result").innerHTML = alert(result);
 
@@ -93,7 +93,7 @@ function getName() {
         
         else if (selectedGender === 1) {
 
-            let result ="Hey" + ' '  + "Your were on a " + daysOfTheWeek[dayOfWeek] + ' ' +"Your Akan name is " + femaleNames[dayOfWeek] + ".";
+            let result ="Hey" + ' '  + "You were on a " + daysOfTheWeek[dayOfWeek] + ' ' + "and" + ' ' +"Your Akan name is " + femaleNames[dayOfWeek] + ".";
 
             document.getElementById("result").innerHTML = alert(result);
         }
