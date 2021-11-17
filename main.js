@@ -1,3 +1,4 @@
+// An Array of the days of the week
 let daysOfTheWeek = 
 [
 "Sunday",
@@ -9,6 +10,7 @@ let daysOfTheWeek =
 "Saturday"
 ];
 
+// An array of the make Akan Names
 let maleNames = 
 [
 "Kwasi",
@@ -19,6 +21,7 @@ let maleNames =
 "Kofi",
 "Kwame"];
 
+// An array of the female Akan Names
 let femaleNames = 
 [
 "Akosua", 
@@ -30,6 +33,9 @@ let femaleNames =
 "Ama"
 ];
 
+
+// This is a function of getting the birthday of the users where I used let date = new Date(dateInput)
+// Got the formula from MDN.Docs
 function getBirthdate() {
 
     let dateInput = document.getElementById("date").value;
@@ -39,20 +45,21 @@ function getBirthdate() {
     if (!!date.valueOf()) {
 
         let year = date.getFullYear().toString();
-        //  let dayOfWeek = (((century / 4) - 2 * century - 1) + (5 *year/ 4) + (26 * (month + 1) / 10) + dayOfMonth) % 7;
+
         let dayOfWeek = date.getDay();
 
         return dayOfWeek;
 
     } 
-    
+    //if the date input is not compatible with a users date of birth let them be notified to select their birth days
+    // or the user doesn't select anything let them be notified 
     else {
-        alert("Please select your birthday.");
+        alert("Please select your month , day and date of birth.");
         return;
     }
 }
 
-// function to get gender
+// This is a function used to select gender (used stack overflow for research)
 function getGender() {
 
     let gender;
@@ -68,7 +75,7 @@ function getGender() {
         return gender;
 
     } 
-    
+    // if user hasn't selected their Genders please let them be notified
     else {
         alert("Please select your gender!");
         return;
@@ -82,7 +89,7 @@ function getName() {
     let dayOfWeek = getBirthdate();
 
     if ((!!dayOfWeek.valueOf() === true) || (dayOfWeek == 0))  {
-
+        //if the male gender is selected let the result be an Akan name (maleNames)
         if (selectedGender === 0) {
 
             let result ="Hey" + ' ' + "You were born on a " + daysOfTheWeek[dayOfWeek] + ' ' + "and" + ' ' +"Your Akan name is " + maleNames[dayOfWeek] + ".";
@@ -90,7 +97,7 @@ function getName() {
             document.getElementById("result").innerHTML = alert(result);
 
         } 
-        
+        //if the female is selected and not the male gender is selected let the result be an Akan name ( femaleNames)
         else if (selectedGender === 1) {
 
             let result ="Hey" + ' '  + "You were on a " + daysOfTheWeek[dayOfWeek] + ' ' + "and" + ' ' +"Your Akan name is " + femaleNames[dayOfWeek] + ".";
