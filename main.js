@@ -82,6 +82,7 @@ function getGender() {
     }
 }
 
+//This fumction gets the Akan Name matched with the day you were born
 function getName() {
 
     let selectedGender = getGender();

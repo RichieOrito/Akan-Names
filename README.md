@@ -41,6 +41,9 @@ it on your own repository.
 * LMS
 * Youtube
 * W3schools
+* freecodeCamp
+* stackOverFlow
+* MDN docs
 
 [Go Back to the top](#akan-name)
 
