@@ -108,7 +108,5 @@ function getName() {
 
     }
     
-    else{
-        return;
-    }
+  
 }
